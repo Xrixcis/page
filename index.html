@@ -1,0 +1,12 @@
+---
+layout: index
+title: Úvod
+---
+
+<div>
+{% capture info %}{% include_relative basic_info.md %}{% endcapture %}
+{{ info | markdownify }}
+</div>
+<br/>
+
+
